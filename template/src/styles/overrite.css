@@ -1,0 +1,14 @@
+main {}
+
+
+@media screen and (min-width: 1000px) {
+    main {}
+}
+
+@media screen and (max-width: 1000px) {
+    main {}
+}
+
+@media screen and (max-width: 500px) {
+    main {}
+}

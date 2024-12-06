@@ -1,0 +1,30 @@
+{
+  "LocaleSwitcher": {
+    "label": "语言",
+    "en": "English",
+    "zh": "简体中文",
+    "ko": "한국어"
+  },
+  "Metadata": {
+    "title": "Lia Nextjs",
+    "Home": "首页"
+  },
+  "LoginPage": {
+    "credentials": "Credentials: jane@doe.com / next-intl",
+    "description": "Please enter your details.",
+    "email": "Email",
+    "invalidCredentials": "Please check your credentials.",
+    "invalidEmail": "Please enter a valid email address.",
+    "invalidPassword": "Please enter a password.",
+    "login": "Sign in",
+    "password": "Password",
+    "title": "Welcome back"
+  },
+
+  "Footer": {
+    "PoweredBy": "Powered by Lia",
+    "PoweredByTips": "一个开箱即用的模板集合",
+    "Add Chain to Wallet": "添加主链",
+    "Add Token to Wallet": "添加Token"
+  }
+}

@@ -1,0 +1,54 @@
+$line-height: 2px;
+.link {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-decoration: none;
+  background-image: linear-gradient(to right,var(--gray-4), var(--gray-6));
+  //background-image: linear-gradient(to right,var(--green-6), var(--green-4));
+  //background-position: 100% 100%, 0px 100%;
+  //background-repeat: no-repeat;
+  background-size: 0 2px;
+  color: var(--gray-2);
+  font-size: 18px;
+
+
+  &[data-active=true] {
+    background-size: 100% 2px;
+  }
+}
+
+.animated_underline {
+  background-size: 0 2px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .animated_underline {
+    transition: 0.3s ease-out;
+    transition-property: background-size, color, background-color, border-color;
+  }
+}
+.animated_underline:hover,
+.animated_underline:focus-visible {
+  background-size: 100% 2px;
+  //background-image: linear-gradient(to right,var(--green-6), var(--green-1));
+  background-image: linear-gradient(to right,var(--gray-4), var(--gray-5));
+}
+
+.transition {
+  @apply transition-all duration-300;
+}
+
+@media screen and (min-width: 1000px) {
+  .link {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+}
+
+@media screen and (max-width: 500px) {
+}

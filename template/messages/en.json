@@ -1,0 +1,30 @@
+{
+  "LocaleSwitcher": {
+    "label": "Language",
+    "en": "English",
+    "zh": "简体中文",
+    "ko": "한국어"
+  },
+  "Metadata": {
+    "title": "Lia Nextjs",
+    "Home": "Home"
+  },
+  "LoginPage": {
+    "credentials": "Credentials: jane@doe.com / next-intl",
+    "description": "Please enter your details.",
+    "email": "Email",
+    "invalidCredentials": "Please check your credentials.",
+    "invalidEmail": "Please enter a valid email address.",
+    "invalidPassword": "Please enter a password.",
+    "login": "Sign in",
+    "password": "Password",
+    "title": "Welcome back"
+  },
+
+  "Footer": {
+    "PoweredBy": "Powered by Lia",
+    "PoweredByTips": "A set of templates that can be used out of the box",
+    "Add Chain to Wallet": "Add Chain to Wallet",
+    "Add Token to Wallet": "Add Token to Wallet"
+  }
+}

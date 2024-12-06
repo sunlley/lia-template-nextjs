@@ -1,0 +1,16 @@
+{
+  "package": {
+    "nodemonConfig": {
+      "watch": [
+        "./src/**/*"
+      ],
+      "ignore": [
+        "test/**/*",
+        "test/*"
+      ]
+    },
+    "eslintConfig": {
+      "extends": []
+    }
+  }
+}

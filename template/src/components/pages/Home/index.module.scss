@@ -1,0 +1,148 @@
+$height:700px;
+
+/**
+  huge: '1440px',
+  large: '1170px',
+  medium: '768px',
+  small: '450px',
+ */
+.img {
+  width: 100%;
+  height: $height;
+  background-size: 100% auto ;
+  //object-fit: contain;
+  object-fit: cover;
+  //background-color: red;
+}
+
+.cover {
+  width: 100%;
+  height: auto;
+  background-color: #EFF8FF;
+  //display: none;
+}
+
+.container {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slogan {
+  font-size: 40px;
+  font-weight: bold;
+  width: 100%;
+  padding: 14px;
+  text-align: center;
+  //margin-top: 45px;
+  margin-top: 440px;
+
+}
+
+.tips {
+  //margin-top: 400px;
+  font-size: 21px;
+  text-align: center;
+  //border-bottom-left-radius: 7px;
+  //background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
+  padding: 7px;
+}
+
+.map_title{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--text-1);
+  padding-top: 100px;
+
+}
+.map_tips{
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 23px;
+  text-align: center;
+  color: var(--text-3);
+
+}
+.map_container{
+  padding-top: 50px;
+  padding-bottom: 45px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+
+
+@media screen and (min-width: 1170px) {
+}
+
+@media screen and (max-width: 768px) {
+  .cover{
+    min-height: 400px;
+  }
+  .slogan {
+    margin-top: 21px;
+
+    font-size: 21px;
+  }
+  .tips{
+    padding-left: 21px;
+    padding-right: 21px;
+    font-size: 16px;
+    margin-top: 140px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  $height:450px;
+  .cover{
+    min-height: $height;
+  }
+  .slogan {
+    font-size: 30px;
+   }
+  .tips{
+    padding-left: 21px;
+    padding-right: 21px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 45px;
+  }
+  .img {
+    height: $height;
+    background-size: auto 100%;
+    object-fit: cover;
+  }
+  .container {
+    height: $height;
+
+  }
+
+  .map_title{
+    font-size: 30px;
+    padding-top: 14px;
+
+  }
+  .map_tips{
+    font-size: 20px;
+    padding-top: 14px;
+
+  }
+  .map_container{
+    padding: 14px;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+
+
+}
+
